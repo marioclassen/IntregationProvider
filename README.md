@@ -15,3 +15,11 @@
 - PHP Checks.....
 
 ### Install 
+- Frest install of RHEL 
+- Add Subscription for RHEL & OpenShift
+- SSH Server installieren bzw. starten
+- Add Repos for OpenShift
+subscription-manager repos \
+    --enable="rhel-7-server-rpms" \
+    --enable="rhel-7-server-extras-rpms" \
+    --enable="rhel-7-server-ose-3.2-rpms"
